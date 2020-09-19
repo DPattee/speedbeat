@@ -1,5 +1,5 @@
 speedbeat:
-  period: 1s
+  period: 3h
 
 processors:
   - add_cloud_metadata: ~

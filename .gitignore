@@ -5,3 +5,5 @@
 /speedbeat
 /speedbeat.test
 *.pyc
+
+logs/

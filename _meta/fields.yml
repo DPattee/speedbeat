@@ -1,9 +1,75 @@
 - key: speedbeat
   title: speedbeat
-  description:
+  description: >
+    UPDATE DOCUMENTATION HERE
   fields:
-    - name: counter
-      type: long
+    - name: isp
+      type: text
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: resulturl
+      type: text
+      format: url
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: test_timestamp
+      type: text
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: ping.latency
+      type: float
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: ping.jitter
+      type: float
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: packetloss
+      type: float
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: download.bandwidth
+      type: integer
+      format: bytes
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: download.elapsed
+      type: integer
+      format: duration
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: upload.bandwidth
+      type: integer
+      format: bytes
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: upload.elapsed
+      type: integer
+      format: duration
+      required: true
+      description: >
+        DOC UPDATED
+    - name: testserver.name
+      type: text
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: testserver.location
+      type: text
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: testserver.ip
+      type: ip
       required: true
       description: >
         PLEASE UPDATE DOCUMENTATION

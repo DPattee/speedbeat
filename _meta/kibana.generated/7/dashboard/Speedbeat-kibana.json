@@ -1,0 +1,152 @@
+{
+    "objects": [
+        {
+            "attributes": {
+                "description": "",
+                "hits": 0,
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "\"{\\\"query\\\":{\\\"language\\\":\\\"kuery\\\",\\\"query\\\":\\\"\\\"},\\\"filter\\\":[]}\""
+                },
+                "optionsJSON": "\"{\\\"hidePanelTitles\\\":true,\\\"useMargins\\\":true}\"",
+                "panelsJSON": "\"[{\\\"version\\\":\\\"7.4.2\\\",\\\"gridData\\\":{\\\"x\\\":0,\\\"y\\\":0,\\\"w\\\":47,\\\"h\\\":15,\\\"i\\\":\\\"8974f298-5b2c-42b0-a86e-035d3cfd69b7\\\"},\\\"panelIndex\\\":\\\"8974f298-5b2c-42b0-a86e-035d3cfd69b7\\\",\\\"embeddableConfig\\\":{},\\\"panelRefName\\\":\\\"panel_0\\\"},{\\\"version\\\":\\\"7.4.2\\\",\\\"gridData\\\":{\\\"x\\\":0,\\\"y\\\":15,\\\"w\\\":12,\\\"h\\\":16,\\\"i\\\":\\\"ddaed1ff-c0ee-46e1-9fd3-6c4abf446e0b\\\"},\\\"panelIndex\\\":\\\"ddaed1ff-c0ee-46e1-9fd3-6c4abf446e0b\\\",\\\"embeddableConfig\\\":{},\\\"panelRefName\\\":\\\"panel_1\\\"},{\\\"version\\\":\\\"7.4.2\\\",\\\"gridData\\\":{\\\"x\\\":12,\\\"y\\\":15,\\\"w\\\":12,\\\"h\\\":16,\\\"i\\\":\\\"420754a8-f096-444a-8077-6c95c2590284\\\"},\\\"panelIndex\\\":\\\"420754a8-f096-444a-8077-6c95c2590284\\\",\\\"embeddableConfig\\\":{},\\\"panelRefName\\\":\\\"panel_2\\\"},{\\\"version\\\":\\\"7.4.2\\\",\\\"gridData\\\":{\\\"x\\\":35,\\\"y\\\":15,\\\"w\\\":12,\\\"h\\\":16,\\\"i\\\":\\\"6253eb07-76c8-47e3-9ef0-4b88df7a5104\\\"},\\\"panelIndex\\\":\\\"6253eb07-76c8-47e3-9ef0-4b88df7a5104\\\",\\\"embeddableConfig\\\":{},\\\"panelRefName\\\":\\\"panel_3\\\"}]\"",
+                "timeRestore": false,
+                "title": "[Speedbeat] Speed Overview",
+                "version": 1
+            },
+            "id": "8ff65d50-f49a-11ea-ba87-c94a0a81b446",
+            "migrationVersion": {
+                "dashboard": "7.3.0"
+            },
+            "references": [
+                {
+                    "id": "1e4d8840-f49a-11ea-ba87-c94a0a81b446",
+                    "name": "panel_0",
+                    "type": "visualization"
+                },
+                {
+                    "id": "e27d8690-f51f-11ea-ba87-c94a0a81b446",
+                    "name": "panel_1",
+                    "type": "visualization"
+                },
+                {
+                    "id": "26e76940-f520-11ea-ba87-c94a0a81b446",
+                    "name": "panel_2",
+                    "type": "visualization"
+                },
+                {
+                    "id": "38dae360-f51c-11ea-ba87-c94a0a81b446",
+                    "name": "panel_3",
+                    "type": "visualization"
+                }
+            ],
+            "type": "dashboard",
+            "updated_at": "2020-09-12T17:50:45.882Z",
+            "version": "WzE0Mzk5MCw0OV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "\"{\\\"query\\\":{\\\"language\\\":\\\"kuery\\\",\\\"query\\\":\\\"\\\"},\\\"indexRefName\\\":\\\"kibanaSavedObjectMeta.searchSourceJSON.index\\\",\\\"filter\\\":[]}\""
+                },
+                "title": "Connection Speed [Speedbeat]",
+                "uiStateJSON": "\"{\\\"vis\\\":{\\\"colors\\\":{\\\"Average download.bandwidth_mbps\\\":\\\"#6ED0E0\\\",\\\"Average upload.bandwidth_mbps\\\":\\\"#BA43A9\\\",\\\"Download Mbps\\\":\\\"#6ED0E0\\\",\\\"Download\\\":\\\"#6ED0E0\\\",\\\"Upload\\\":\\\"#BA43A9\\\"}}}\"",
+                "version": 1,
+                "visState": "\"{\\\"title\\\":\\\"Connection Speed [Speedbeat]\\\",\\\"type\\\":\\\"line\\\",\\\"params\\\":{\\\"addLegend\\\":true,\\\"addTimeMarker\\\":false,\\\"addTooltip\\\":true,\\\"categoryAxes\\\":[{\\\"id\\\":\\\"CategoryAxis-1\\\",\\\"labels\\\":{\\\"filter\\\":true,\\\"show\\\":true,\\\"truncate\\\":100},\\\"position\\\":\\\"bottom\\\",\\\"scale\\\":{\\\"type\\\":\\\"linear\\\"},\\\"show\\\":true,\\\"style\\\":{},\\\"title\\\":{},\\\"type\\\":\\\"category\\\"}],\\\"dimensions\\\":{\\\"x\\\":{\\\"accessor\\\":0,\\\"format\\\":{\\\"id\\\":\\\"date\\\",\\\"params\\\":{\\\"pattern\\\":\\\"HH:mm\\\"}},\\\"params\\\":{\\\"date\\\":true,\\\"interval\\\":\\\"PT30M\\\",\\\"format\\\":\\\"HH:mm\\\",\\\"bounds\\\":{\\\"min\\\":\\\"2020-09-11T17:18:25.614Z\\\",\\\"max\\\":\\\"2020-09-12T17:18:25.614Z\\\"}},\\\"aggType\\\":\\\"date_histogram\\\"},\\\"y\\\":[{\\\"accessor\\\":1,\\\"format\\\":{\\\"id\\\":\\\"bytes\\\"},\\\"params\\\":{},\\\"aggType\\\":\\\"avg\\\"},{\\\"accessor\\\":2,\\\"format\\\":{\\\"id\\\":\\\"number\\\"},\\\"params\\\":{},\\\"aggType\\\":\\\"avg\\\"}]},\\\"grid\\\":{\\\"categoryLines\\\":false,\\\"valueAxis\\\":\\\"ValueAxis-1\\\"},\\\"labels\\\":{},\\\"legendPosition\\\":\\\"top\\\",\\\"seriesParams\\\":[{\\\"data\\\":{\\\"id\\\":\\\"1\\\",\\\"label\\\":\\\"Download\\\"},\\\"drawLinesBetweenPoints\\\":true,\\\"mode\\\":\\\"normal\\\",\\\"show\\\":\\\"true\\\",\\\"showCircles\\\":true,\\\"type\\\":\\\"line\\\",\\\"valueAxis\\\":\\\"ValueAxis-1\\\",\\\"interpolate\\\":\\\"linear\\\",\\\"lineWidth\\\":3},{\\\"show\\\":true,\\\"mode\\\":\\\"normal\\\",\\\"type\\\":\\\"line\\\",\\\"drawLinesBetweenPoints\\\":true,\\\"showCircles\\\":true,\\\"data\\\":{\\\"id\\\":\\\"3\\\",\\\"label\\\":\\\"Upload\\\"},\\\"valueAxis\\\":\\\"ValueAxis-1\\\"}],\\\"thresholdLine\\\":{\\\"color\\\":\\\"#34130C\\\",\\\"style\\\":\\\"full\\\",\\\"width\\\":12,\\\"value\\\":16400,\\\"show\\\":false},\\\"times\\\":[],\\\"type\\\":\\\"line\\\",\\\"valueAxes\\\":[{\\\"id\\\":\\\"ValueAxis-1\\\",\\\"labels\\\":{\\\"filter\\\":false,\\\"rotate\\\":0,\\\"show\\\":true,\\\"truncate\\\":100},\\\"name\\\":\\\"LeftAxis-1\\\",\\\"position\\\":\\\"left\\\",\\\"scale\\\":{\\\"mode\\\":\\\"normal\\\",\\\"type\\\":\\\"linear\\\",\\\"defaultYExtents\\\":false},\\\"show\\\":true,\\\"style\\\":{},\\\"title\\\":{\\\"text\\\":\\\"Mbps\\\"},\\\"type\\\":\\\"value\\\"}]},\\\"aggs\\\":[{\\\"id\\\":\\\"1\\\",\\\"enabled\\\":true,\\\"type\\\":\\\"avg\\\",\\\"schema\\\":\\\"metric\\\",\\\"params\\\":{\\\"field\\\":\\\"download.bandwidth_mbps\\\",\\\"customLabel\\\":\\\"Download\\\"}},{\\\"id\\\":\\\"2\\\",\\\"enabled\\\":true,\\\"type\\\":\\\"date_histogram\\\",\\\"schema\\\":\\\"segment\\\",\\\"params\\\":{\\\"field\\\":\\\"@timestamp\\\",\\\"timeRange\\\":{\\\"from\\\":\\\"now-24h\\\",\\\"to\\\":\\\"now\\\"},\\\"useNormalizedEsInterval\\\":true,\\\"interval\\\":\\\"auto\\\",\\\"drop_partials\\\":false,\\\"min_doc_count\\\":1,\\\"extended_bounds\\\":{}}},{\\\"id\\\":\\\"3\\\",\\\"enabled\\\":true,\\\"type\\\":\\\"avg\\\",\\\"schema\\\":\\\"metric\\\",\\\"params\\\":{\\\"field\\\":\\\"upload.bandwidth_mbps\\\",\\\"customLabel\\\":\\\"Upload\\\"}}]}\""
+            },
+            "id": "1e4d8840-f49a-11ea-ba87-c94a0a81b446",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "54099930-f48e-11ea-ba87-c94a0a81b446",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-09-12T17:19:13.233Z",
+            "version": "WzE0Mzk3MSw0OV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "\"{\\\"query\\\":{\\\"language\\\":\\\"kuery\\\",\\\"query\\\":\\\"\\\"},\\\"indexRefName\\\":\\\"kibanaSavedObjectMeta.searchSourceJSON.index\\\",\\\"filter\\\":[]}\""
+                },
+                "title": "Download Speed [Speedbeat]",
+                "uiStateJSON": "\"{\\\"vis\\\":{\\\"defaultColors\\\":{\\\"0 - 100000000\\\":\\\"rgb(247,251,255)\\\",\\\"100000000 - 200000000\\\":\\\"rgb(225,237,248)\\\",\\\"200000000 - 300000000\\\":\\\"rgb(203,223,241)\\\",\\\"300000000 - 400000000\\\":\\\"rgb(171,208,230)\\\",\\\"400000000 - 500000000\\\":\\\"rgb(130,186,219)\\\",\\\"500000000 - 600000000\\\":\\\"rgb(89,161,207)\\\",\\\"600000000 - 700000000\\\":\\\"rgb(55,135,192)\\\",\\\"700000000 - 800000000\\\":\\\"rgb(27,106,175)\\\",\\\"800000000 - 900000000\\\":\\\"rgb(8,77,150)\\\",\\\"900000000 - 1000000000\\\":\\\"rgb(8,48,107)\\\"}}}\"",
+                "version": 1,
+                "visState": "\"{\\\"title\\\":\\\"Download Speed [Speedbeat]\\\",\\\"type\\\":\\\"gauge\\\",\\\"params\\\":{\\\"addLegend\\\":false,\\\"addTooltip\\\":true,\\\"dimensions\\\":{\\\"x\\\":null,\\\"y\\\":[{\\\"accessor\\\":0,\\\"format\\\":{\\\"id\\\":\\\"bytes\\\"},\\\"params\\\":{},\\\"aggType\\\":\\\"top_hits\\\"}]},\\\"gauge\\\":{\\\"alignment\\\":\\\"automatic\\\",\\\"backStyle\\\":\\\"Full\\\",\\\"colorSchema\\\":\\\"Blues\\\",\\\"extendRange\\\":true,\\\"gaugeColorMode\\\":\\\"Labels\\\",\\\"gaugeStyle\\\":\\\"Full\\\",\\\"gaugeType\\\":\\\"Arc\\\",\\\"invertColors\\\":false,\\\"labels\\\":{\\\"color\\\":\\\"black\\\",\\\"show\\\":true},\\\"orientation\\\":\\\"vertical\\\",\\\"percentageMode\\\":false,\\\"scale\\\":{\\\"color\\\":\\\"rgba(105,112,125,0.2)\\\",\\\"labels\\\":false,\\\"show\\\":true},\\\"type\\\":\\\"meter\\\",\\\"colorsRange\\\":[{\\\"from\\\":0,\\\"to\\\":100000000},{\\\"from\\\":100000000,\\\"to\\\":200000000},{\\\"to\\\":300000000,\\\"from\\\":200000000},{\\\"to\\\":400000000,\\\"from\\\":300000000},{\\\"to\\\":500000000,\\\"from\\\":400000000},{\\\"to\\\":600000000,\\\"from\\\":500000000},{\\\"to\\\":700000000,\\\"from\\\":600000000},{\\\"to\\\":800000000,\\\"from\\\":700000000},{\\\"to\\\":900000000,\\\"from\\\":800000000},{\\\"to\\\":1000000000,\\\"from\\\":900000000}],\\\"style\\\":{\\\"bgColor\\\":true,\\\"bgFill\\\":\\\"rgba(105,112,125,0.2)\\\",\\\"bgMask\\\":false,\\\"bgWidth\\\":0.9,\\\"fontSize\\\":60,\\\"mask\\\":false,\\\"maskBars\\\":50,\\\"width\\\":0.9,\\\"subText\\\":\\\"Mbps\\\"}},\\\"isDisplayWarning\\\":false,\\\"type\\\":\\\"gauge\\\"},\\\"aggs\\\":[{\\\"id\\\":\\\"1\\\",\\\"enabled\\\":true,\\\"type\\\":\\\"top_hits\\\",\\\"schema\\\":\\\"metric\\\",\\\"params\\\":{\\\"field\\\":\\\"download.bandwidth_mbps\\\",\\\"aggregate\\\":\\\"average\\\",\\\"size\\\":1,\\\"sortField\\\":\\\"@timestamp\\\",\\\"sortOrder\\\":\\\"desc\\\",\\\"customLabel\\\":\\\"Download\\\"}}]}\""
+            },
+            "id": "e27d8690-f51f-11ea-ba87-c94a0a81b446",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "54099930-f48e-11ea-ba87-c94a0a81b446",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-09-12T17:48:16.395Z",
+            "version": "WzE0Mzk4NSw0OV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "\"{\\\"query\\\":{\\\"language\\\":\\\"kuery\\\",\\\"query\\\":\\\"\\\"},\\\"indexRefName\\\":\\\"kibanaSavedObjectMeta.searchSourceJSON.index\\\",\\\"filter\\\":[]}\""
+                },
+                "title": "Upload Speed [Speedbeat]",
+                "uiStateJSON": "\"{\\\"vis\\\":{\\\"defaultColors\\\":{\\\"0 - 100000000\\\":\\\"rgb(247,251,255)\\\",\\\"100000000 - 200000000\\\":\\\"rgb(225,237,248)\\\",\\\"200000000 - 300000000\\\":\\\"rgb(203,223,241)\\\",\\\"300000000 - 400000000\\\":\\\"rgb(171,208,230)\\\",\\\"400000000 - 500000000\\\":\\\"rgb(130,186,219)\\\",\\\"500000000 - 600000000\\\":\\\"rgb(89,161,207)\\\",\\\"600000000 - 700000000\\\":\\\"rgb(55,135,192)\\\",\\\"700000000 - 800000000\\\":\\\"rgb(27,106,175)\\\",\\\"800000000 - 900000000\\\":\\\"rgb(8,77,150)\\\",\\\"900000000 - 1000000000\\\":\\\"rgb(8,48,107)\\\"}}}\"",
+                "version": 1,
+                "visState": "\"{\\\"title\\\":\\\"Upload Speed [Speedbeat]\\\",\\\"type\\\":\\\"gauge\\\",\\\"params\\\":{\\\"addLegend\\\":false,\\\"addTooltip\\\":true,\\\"dimensions\\\":{\\\"x\\\":null,\\\"y\\\":[{\\\"accessor\\\":0,\\\"format\\\":{\\\"id\\\":\\\"number\\\"},\\\"params\\\":{},\\\"aggType\\\":\\\"top_hits\\\"}]},\\\"gauge\\\":{\\\"alignment\\\":\\\"automatic\\\",\\\"backStyle\\\":\\\"Full\\\",\\\"colorSchema\\\":\\\"Blues\\\",\\\"extendRange\\\":true,\\\"gaugeColorMode\\\":\\\"Labels\\\",\\\"gaugeStyle\\\":\\\"Full\\\",\\\"gaugeType\\\":\\\"Arc\\\",\\\"invertColors\\\":false,\\\"labels\\\":{\\\"color\\\":\\\"black\\\",\\\"show\\\":true},\\\"orientation\\\":\\\"vertical\\\",\\\"percentageMode\\\":false,\\\"scale\\\":{\\\"color\\\":\\\"rgba(105,112,125,0.2)\\\",\\\"labels\\\":false,\\\"show\\\":true},\\\"type\\\":\\\"meter\\\",\\\"colorsRange\\\":[{\\\"from\\\":0,\\\"to\\\":100000000},{\\\"from\\\":100000000,\\\"to\\\":200000000},{\\\"to\\\":300000000,\\\"from\\\":200000000},{\\\"to\\\":400000000,\\\"from\\\":300000000},{\\\"to\\\":500000000,\\\"from\\\":400000000},{\\\"to\\\":600000000,\\\"from\\\":500000000},{\\\"to\\\":700000000,\\\"from\\\":600000000},{\\\"to\\\":800000000,\\\"from\\\":700000000},{\\\"to\\\":900000000,\\\"from\\\":800000000},{\\\"to\\\":1000000000,\\\"from\\\":900000000}],\\\"style\\\":{\\\"bgColor\\\":true,\\\"bgFill\\\":\\\"rgba(105,112,125,0.2)\\\",\\\"bgMask\\\":false,\\\"bgWidth\\\":0.9,\\\"fontSize\\\":60,\\\"mask\\\":false,\\\"maskBars\\\":50,\\\"width\\\":0.9,\\\"subText\\\":\\\"Mbps\\\"}},\\\"isDisplayWarning\\\":false,\\\"type\\\":\\\"gauge\\\"},\\\"aggs\\\":[{\\\"id\\\":\\\"1\\\",\\\"enabled\\\":true,\\\"type\\\":\\\"top_hits\\\",\\\"schema\\\":\\\"metric\\\",\\\"params\\\":{\\\"field\\\":\\\"upload.bandwidth_mbps\\\",\\\"aggregate\\\":\\\"average\\\",\\\"size\\\":1,\\\"sortField\\\":\\\"@timestamp\\\",\\\"sortOrder\\\":\\\"desc\\\",\\\"customLabel\\\":\\\"Upload\\\"}}]}\""
+            },
+            "id": "26e76940-f520-11ea-ba87-c94a0a81b446",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "54099930-f48e-11ea-ba87-c94a0a81b446",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-09-12T17:48:40.267Z",
+            "version": "WzE0Mzk4Nyw0OV0="
+        },
+        {
+            "attributes": {
+                "description": "",
+                "kibanaSavedObjectMeta": {
+                    "searchSourceJSON": "\"{\\\"query\\\":{\\\"query\\\":\\\"\\\",\\\"language\\\":\\\"kuery\\\"},\\\"indexRefName\\\":\\\"kibanaSavedObjectMeta.searchSourceJSON.index\\\",\\\"filter\\\":[]}\""
+                },
+                "title": "Ping Latency [Speedbeat]",
+                "uiStateJSON": "\"{\\\"vis\\\":{\\\"defaultColors\\\":{\\\"0 - 1\\\":\\\"rgb(255,245,240)\\\",\\\"1 - 2\\\":\\\"rgb(254,232,222)\\\",\\\"2 - 5\\\":\\\"rgb(253,216,199)\\\",\\\"5 - 10\\\":\\\"rgb(252,193,168)\\\",\\\"10 - 15\\\":\\\"rgb(252,168,139)\\\",\\\"15 - 20\\\":\\\"rgb(252,143,111)\\\",\\\"20 - 30\\\":\\\"rgb(251,118,86)\\\",\\\"30 - 40\\\":\\\"rgb(247,92,65)\\\",\\\"40 - 50\\\":\\\"rgb(240,62,46)\\\",\\\"50 - 60\\\":\\\"rgb(219,40,36)\\\",\\\"60 - 70\\\":\\\"rgb(197,23,28)\\\",\\\"70 - 80\\\":\\\"rgb(173,17,23)\\\",\\\"80 - 90\\\":\\\"rgb(141,9,18)\\\",\\\"90 - 100\\\":\\\"rgb(103,0,13)\\\"}}}\"",
+                "version": 1,
+                "visState": "\"{\\\"title\\\":\\\"Ping Latency [Speedbeat]\\\",\\\"type\\\":\\\"gauge\\\",\\\"params\\\":{\\\"type\\\":\\\"gauge\\\",\\\"addTooltip\\\":true,\\\"addLegend\\\":false,\\\"isDisplayWarning\\\":false,\\\"gauge\\\":{\\\"alignment\\\":\\\"automatic\\\",\\\"extendRange\\\":true,\\\"percentageMode\\\":false,\\\"gaugeStyle\\\":\\\"Full\\\",\\\"backStyle\\\":\\\"Full\\\",\\\"orientation\\\":\\\"vertical\\\",\\\"gaugeColorMode\\\":\\\"Labels\\\",\\\"invertColors\\\":false,\\\"labels\\\":{\\\"show\\\":true,\\\"color\\\":\\\"black\\\"},\\\"scale\\\":{\\\"show\\\":true,\\\"labels\\\":false,\\\"color\\\":\\\"rgba(105,112,125,0.2)\\\"},\\\"type\\\":\\\"meter\\\",\\\"gaugeType\\\":\\\"Arc\\\",\\\"style\\\":{\\\"bgWidth\\\":0.9,\\\"width\\\":0.9,\\\"mask\\\":false,\\\"bgMask\\\":false,\\\"maskBars\\\":50,\\\"bgFill\\\":\\\"rgba(105,112,125,0.2)\\\",\\\"bgColor\\\":true,\\\"fontSize\\\":60,\\\"subText\\\":\\\"ms\\\"},\\\"colorSchema\\\":\\\"Reds\\\",\\\"colorsRange\\\":[{\\\"from\\\":0,\\\"to\\\":1},{\\\"from\\\":1,\\\"to\\\":2},{\\\"from\\\":2,\\\"to\\\":5},{\\\"from\\\":5,\\\"to\\\":10},{\\\"from\\\":10,\\\"to\\\":15},{\\\"from\\\":15,\\\"to\\\":20},{\\\"from\\\":20,\\\"to\\\":30},{\\\"from\\\":30,\\\"to\\\":40},{\\\"from\\\":40,\\\"to\\\":50},{\\\"from\\\":50,\\\"to\\\":60},{\\\"from\\\":60,\\\"to\\\":70},{\\\"from\\\":70,\\\"to\\\":80},{\\\"from\\\":80,\\\"to\\\":90},{\\\"from\\\":90,\\\"to\\\":100}]},\\\"dimensions\\\":{\\\"x\\\":null,\\\"y\\\":[{\\\"accessor\\\":0,\\\"format\\\":{\\\"id\\\":\\\"number\\\"},\\\"params\\\":{},\\\"aggType\\\":\\\"top_hits\\\"}]}},\\\"aggs\\\":[{\\\"id\\\":\\\"1\\\",\\\"enabled\\\":true,\\\"type\\\":\\\"top_hits\\\",\\\"schema\\\":\\\"metric\\\",\\\"params\\\":{\\\"field\\\":\\\"ping.latency\\\",\\\"aggregate\\\":\\\"average\\\",\\\"size\\\":1,\\\"sortField\\\":\\\"@timestamp\\\",\\\"sortOrder\\\":\\\"desc\\\",\\\"customLabel\\\":\\\"Ping\\\"}}]}\""
+            },
+            "id": "38dae360-f51c-11ea-ba87-c94a0a81b446",
+            "migrationVersion": {
+                "visualization": "7.4.2"
+            },
+            "references": [
+                {
+                    "id": "54099930-f48e-11ea-ba87-c94a0a81b446",
+                    "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+                    "type": "index-pattern"
+                }
+            ],
+            "type": "visualization",
+            "updated_at": "2020-09-12T17:44:31.884Z",
+            "version": "WzE0Mzk3OCw0OV0="
+        }
+    ],
+    "version": "7.4.2"
+}

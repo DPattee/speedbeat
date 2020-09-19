@@ -8692,16 +8692,171 @@ alias to: process.executable
 [[exported-fields-speedbeat]]
 == speedbeat fields
 
-None
+UPDATE DOCUMENTATION HERE
 
 
-*`counter`*::
+
+*`isp`*::
 +
 --
 PLEASE UPDATE DOCUMENTATION
 
 
-type: long
+type: text
+
+required: True
+
+--
+
+*`resulturl`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: text
+
+format: url
+
+required: True
+
+--
+
+*`test_timestamp`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: text
+
+required: True
+
+--
+
+*`ping.latency`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: float
+
+required: True
+
+--
+
+*`ping.jitter`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: float
+
+required: True
+
+--
+
+*`packetloss`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: float
+
+required: True
+
+--
+
+*`download.bandwidth`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: integer
+
+format: bytes
+
+required: True
+
+--
+
+*`download.elapsed`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: integer
+
+format: duration
+
+required: True
+
+--
+
+*`upload.bandwidth`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: integer
+
+format: bytes
+
+required: True
+
+--
+
+*`upload.elapsed`*::
++
+--
+DOC UPDATED
+
+
+type: integer
+
+format: duration
+
+required: True
+
+--
+
+*`testserver.name`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: text
+
+required: True
+
+--
+
+*`testserver.location`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: text
+
+required: True
+
+--
+
+*`testserver.ip`*::
++
+--
+PLEASE UPDATE DOCUMENTATION
+
+
+type: ip
 
 required: True
 
